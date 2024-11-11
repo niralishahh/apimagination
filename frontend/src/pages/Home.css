@@ -1,0 +1,7 @@
+.article-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);  /* Create two equal-width columns */
+    gap: 20px;  /* Adjust the space between columns */
+    margin: 20px;
+}
+  

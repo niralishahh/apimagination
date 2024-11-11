@@ -1,0 +1,65 @@
+.App {
+  margin: 0.05vw;
+  padding: 0.5vw;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;  /* Align links to the right */
+  gap: 20px;  /* Space links evenly */
+  padding: 10px 20px;
+}
+
+.navbar a {
+  text-decoration: none;  /* Remove underline from links */
+  color: #333;  /* Link color */
+  padding: 8px 16px;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #007bff;  /* Change color on hover */
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 16px; /* Space between grid items */
+  padding: 20px;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

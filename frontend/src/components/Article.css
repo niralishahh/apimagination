@@ -1,0 +1,23 @@
+.card {
+    border: 1px solid;
+    border-radius: 2px;
+    width: 35vw;
+    height: 35vh;
+    padding: 1vw;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+h1, h3, h5, h6 {
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    margin-top: 10px; /* Optional: Add spacing above the button */
+}
